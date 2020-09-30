@@ -1,0 +1,43 @@
+//  null browser style
+@import "nullstyle.scss";
+
+//variables
+// $fs: 16px;
+// $color1: #3a3b3f;  
+
+
+
+
+
+// body {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: $fs;
+//   color: $color3;
+//   @media (max-width: 768px) {
+//     // padding: 0 1em;
+//     font-size: $fs*1.5;
+//   }
+// }
+
+
+// .hero-content {
+//   background: $color2;
+//   min-height: 50px;
+//   color: $color1;
+//   padding: 7px 15px;
+//   & h1 {
+//     font-size: 1.625em;
+//   }
+// }
+
+body {
+  font-size: 16px;
+  font-family: Arial;
+  background-color: #fff;
+  color: #445161;
+}
+
+
+
+
+
