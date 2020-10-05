@@ -15,15 +15,7 @@ function nuvbarManipulation() {
     let menuBox = document.querySelector('.menu__box');
 
     menuBox.classList.toggle("close-menu");
-
-
-    // menuVisibility = menuVisibility === false ? true : false;
-
-    // console.log(menuVisibility);
-
-
   }
-
 
     document.addEventListener('scroll', changingNavbarPosition, false);
     menuBtn.addEventListener('click', openCloseMenu, false);
