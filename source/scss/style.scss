@@ -128,7 +128,7 @@ body {
       
       & .menu__item  {
         color: $light-gray;
-        padding: 1rem 20px;
+        padding: 15px 20px;
         
 
         @media (min-width: 1025px) {
@@ -146,7 +146,7 @@ body {
       }
 
       & .menu__item:hover {
-        padding: 1rem 19px;
+        padding: 14px 19px;
         border: 1px solid $yellow;
         color: $black;
         cursor: pointer;

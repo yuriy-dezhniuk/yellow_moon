@@ -142,7 +142,7 @@ body {
       align-items: center; }
     .navbar .width-container .menu .menu__item {
       color: #8e8e8e;
-      padding: 1rem 20px; }
+      padding: 15px 20px; }
       @media (min-width: 1025px) {
         .navbar .width-container .menu .menu__item {
           display: inline; } }
@@ -153,7 +153,7 @@ body {
       .navbar .width-container .menu .menu__item a {
         text-transform: uppercase; }
     .navbar .width-container .menu .menu__item:hover {
-      padding: 1rem 19px;
+      padding: 14px 19px;
       border: 1px solid #ffe600;
       color: #000;
       cursor: pointer; }
