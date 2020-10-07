@@ -65,6 +65,11 @@ body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif; }
 
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
 .hover-btn:hover {
   transition: 0.3s ease-in-out;
   filter: invert(20%); }
@@ -230,5 +235,28 @@ body {
 @media (max-width: 1024px) {
   .close-menu {
     display: none; } }
+
+.about-us .services {
+  min-height: 600px;
+  /*delete*/
+  border: 1px solid red;
+  /*delete*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .about-us .services h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.666rem;
+    letter-spacing: -0.1rem;
+    color: #131316;
+    padding: 10px; }
+  .about-us .services .subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffe600;
+    margin-top: 10px; }
+  .about-us .services .services-row {
+    display: flex; }
 
 /*# sourceMappingURL=style.css.map */
