@@ -306,7 +306,7 @@ body {
     border: 1px solid red; /*delete*/
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     & h2 {
       text-transform: uppercase;
