@@ -258,5 +258,11 @@ body {
     margin-top: 10px; }
   .about-us .services .services-row {
     display: flex; }
+    .about-us .services .services-row .service-number {
+      color: #ffe600;
+      border-right: 1px solid #ffe600;
+      font-size: 1.667rem;
+      padding-right: 10px;
+      margin-right: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
