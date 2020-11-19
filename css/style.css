@@ -107,7 +107,9 @@ body {
   /*fullscreen block*/
   padding: 10px; }
   .fullscreen__body .logo {
-    margin-bottom: 5%; }
+    max-width: 90px;
+    max-height: 90px;
+    margin: 0 auto 5% auto; }
   .fullscreen__body .greeting__title {
     color: #fff;
     margin-bottom: 3%; }
