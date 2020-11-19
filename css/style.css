@@ -241,8 +241,6 @@ body {
 .about-us .services {
   min-height: 600px;
   /*delete*/
-  border: 1px solid red;
-  /*delete*/
   display: flex;
   flex-direction: column;
   justify-content: space-evenly; }
@@ -259,12 +257,46 @@ body {
     color: #ffe600;
     margin-top: 10px; }
   .about-us .services .services-row {
-    display: flex; }
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .about-us .services .services-row .service-item {
+      max-width: 280px;
+      margin-bottom: 30px; }
+      .about-us .services .services-row .service-item p {
+        text-align: center;
+        color: #8e8e8e;
+        margin-top: 40px; }
     .about-us .services .services-row .service-number {
       color: #ffe600;
       border-right: 1px solid #ffe600;
       font-size: 1.667rem;
       padding-right: 10px;
       margin-right: 1rem; }
+    .about-us .services .services-row h4 {
+      color: #131316;
+      text-align: center; }
+
+.inspired {
+  min-height: 600px;
+  background: #ffe600;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .inspired h2 {
+    font-size: 1.667rem;
+    font-weight: 300;
+    color: #131316;
+    letter-spacing: 0.067rem;
+    font-style: italic;
+    line-height: 2.667rem;
+    max-width: 700px;
+    text-transform: uppercase; }
+  .inspired p {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */

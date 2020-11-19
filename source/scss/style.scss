@@ -305,7 +305,6 @@ body {
 
   & .services {
     min-height: 600px; /*delete*/
-    border: 1px solid red; /*delete*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -328,6 +327,18 @@ body {
 
     & .services-row {
       display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      & .service-item {
+        max-width: 280px;
+        margin-bottom: 30px;
+        & p {
+          text-align: center;
+          color: #8e8e8e;
+          margin-top: 40px;
+        }
+      }
 
       & .service-number {
         color: $yellow;
@@ -336,7 +347,38 @@ body {
         padding-right: 10px;
         margin-right: 1rem;
       }
+
+      & h4 {
+        color: $title-color;
+        text-align: center;
+      }
     }
+  }
+}
+
+.inspired {
+  min-height: 600px;
+  background: $yellow;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  & h2 {
+    font-size: 1.667rem;
+    font-weight: 300;
+    color: $title-color;
+    letter-spacing: 0.067rem;
+    font-style: italic;
+    line-height: 2.667rem;
+    max-width: 700px;
+    text-transform: uppercase;
+  }
+  & p {
+    color: $white;
+    text-transform: uppercase;
+    margin-top: 10px;
   }
 }
 
